@@ -68,3 +68,84 @@ MINDORA is a dark, lunar-themed, competitive writing platform. It's not just a b
 ---
 
 ## 📁 Project Structure
+/mindora-platform
+├── /src
+│   ├── /components
+│   │   ├── /arena - Battle related components
+│   │   ├── /editor - Rich text editor
+│   │   ├── /layout - Navbar, Sidebar, Footer
+│   │   └── /ui - Buttons, Modals (Lunar UI)
+│   ├── /pages
+│   │   ├── http://LandingPage.jsx
+│   │   ├── http://ArenaPage.jsx
+│   │   ├── http://LibraryPage.jsx
+│   │   ├── http://ProfilePage.jsx
+│   │   └── http://LeaderboardPage.jsx
+│   ├── /hooks - useAuth, useBattle
+│   ├── /lib - http://firebase.js
+│   ├── http://App.jsx
+│   └── http://main.jsx
+├── /public
+├── http://firebase.json
+└── http://README.md
+
+---
+
+⚙️ Installation & Setup (Local)
+
+1.  **Clone the repo:**
+    ```bash
+    git clone https://github.com/your-username/mindora-platform.git
+    cd mindora-platform
+2.  *Install dependencies:*
+    npm install
+3.  *Setup Firebase:*
+    - Go to Firebase Console -> Create Project `mindora-platform`
+    - Enable Authentication (Google) & Firestore Database
+    - Create `.env` file in root and add your keys:
+    VITE_FIREBASE_API_KEY=your_api_key
+    VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+    VITE_FIREBASE_PROJECT_ID=your_project_id
+    VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+    VITE_FIREBASE_APP_ID=your_app_id
+4.  *Run locally:*
+    npm run dev
+---
+
+🗺️ Roadmap (Future Ideas)
+
+- [ ] *AI Muse:* AI that gives you next line when you are stuck (but deducts XP)
+- [ ] *Audio Tales:* Convert story to audio with AI voice
+- [ ] *Collab Battles:* 2v2 writing battles
+- [ ] *NFT Covers:* Mint your best story cover as NFT
+- [ ] *Mobile App:* React Native version
+
+---
+
+🤝 Contributing
+
+Contributions are what make the open-source community amazing! Any contributions you make are *greatly appreciated*.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+👩‍💻 Author
+
+*Ayan / forida*
+- GitHub: https://github.com/your-username
+- Portfolio: http://your-portfolio.com
+
+---
+
+📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+*Built with 🌙 and late-night coffee by the MINDORA Team.*
