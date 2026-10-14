@@ -137,7 +137,7 @@ Contributions are what make the open-source community amazing! Any contributions
 
 👩‍💻 Author
 
-*Ayan / forida*
+*forida*
 - GitHub: https://github.com/your-username
 - Portfolio: http://your-portfolio.com
 
