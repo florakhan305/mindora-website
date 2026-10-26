@@ -13,8 +13,8 @@ MINDORA is a dark, lunar-themed, competitive writing platform. It's not just a b
 ---
 
 ## ✨ Live Demo
-**[https://mindora-platform.web.app](https://mindora-platform.web.app)**
 
+https://mindora-writing-platform-arena.ai.studio
 ---
 
 ## 📸 Screenshots
